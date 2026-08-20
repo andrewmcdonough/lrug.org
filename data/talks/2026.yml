@@ -315,3 +315,15 @@ august:
       leaves us stuck rather than productive, and a more honest way to think about career progress
       beyond chasing titles.
 september:
+  syncing-from-a-non-rails-app-with-multiple-database-connections:
+    title: Syncing from a non-Rails app with Multiple Database Connections
+    speaker:
+      name: Jade Dickinson
+      url: "https://jadedickinson.com"
+    description: |
+      Rails supports scaling applications with multiple databases, but did you know you can also
+      use them to connect to any database and query it using ActiveRecord? I’ll talk about the
+      process of syncing data from a non-Rails app to our Rails monolith in order to sunset an
+      old system. I will elaborate by explaining how I designed a sync mechanism that could run
+      quickly and continuously, mapped information across database schemas, and the decisions I
+      made to make it understandable, observable and easy to operate.
